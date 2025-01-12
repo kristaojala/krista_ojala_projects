@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brackeys_Tutorial", "Brackeys_Tutorial\Brackeys_Tutorial.csproj", "{CA9CDAA4-FCDA-4E78-9556-665696C22052}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA9CDAA4-FCDA-4E78-9556-665696C22052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9CDAA4-FCDA-4E78-9556-665696C22052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9CDAA4-FCDA-4E78-9556-665696C22052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9CDAA4-FCDA-4E78-9556-665696C22052}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F141DC16-4FE8-47BB-B4BD-EF20CE5667D4}
+	EndGlobalSection
+EndGlobal

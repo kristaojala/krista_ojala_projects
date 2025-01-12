@@ -1,0 +1,83 @@
+body{
+  margin: 0;}
+  
+.sauna-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  margin: 0;
+  background: rgb(221, 157, 157);
+  overflow: hidden;
+
+  min-height: 100vh;
+  height: auto;
+}
+
+body{
+  margin: 0;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 1.5rem;
+  }
+
+  th {
+    padding: 1rem;
+  }
+  
+  td {
+    border-top: 3px solid #bbbbbb;
+    text-align: center;
+    width: 10rem;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #efefef;
+  }
+table button, .reset{
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+  }
+.reset{
+ width: 10rem;
+ margin-top: 3rem;
+}
+.reserved {
+    background-color: red;
+  }
+
+.reserved-for-user {
+    background-color: orange;
+  }
+
+.available {
+    background-color: green;
+  }
+
+.not-available {
+    background-color: gray;
+  }
+
+.available:hover {
+    background-color: darkgreen;
+  }
+
+.reserved-for-user:hover {
+    background-color: darkorange;
+  }
+
+.bold{
+  font-weight: bold;
+}
+.border-left{
+  border-left: 3px solid #bbbbbb;
+}

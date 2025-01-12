@@ -1,0 +1,7 @@
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\bin\Debug\HarjoitusKoe.exe.config
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\bin\Debug\HarjoitusKoe.exe
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\bin\Debug\HarjoitusKoe.pdb
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\obj\Debug\HarjoitusKoe.csproj.AssemblyReference.cache
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\obj\Debug\HarjoitusKoe.csproj.CoreCompileInputs.cache
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\obj\Debug\HarjoitusKoe.exe
+C:\Users\krist\Documents\GitHub\VSsiirto\HarjoitusKoe\HarjoitusKoe\obj\Debug\HarjoitusKoe.pdb

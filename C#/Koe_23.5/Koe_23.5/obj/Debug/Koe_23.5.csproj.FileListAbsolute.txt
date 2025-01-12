@@ -1,0 +1,7 @@
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\bin\Debug\Koe_23.5.exe.config
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\bin\Debug\Koe_23.5.exe
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\bin\Debug\Koe_23.5.pdb
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\obj\Debug\Koe_23.5.csproj.AssemblyReference.cache
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\obj\Debug\Koe_23.5.csproj.CoreCompileInputs.cache
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\obj\Debug\Koe_23.5.exe
+C:\Users\krista.ojala\Documents\GitHub\VSsiirto\Koe_23.5\Koe_23.5\obj\Debug\Koe_23.5.pdb

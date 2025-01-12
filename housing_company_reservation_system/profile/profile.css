@@ -1,0 +1,104 @@
+
+ body{
+    margin:0;
+ }
+ .profile-main {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+    }
+
+.profile-main h2 {
+    text-align: center;
+    font-size: 2rem;
+    }
+
+.profile-main h3{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.profile-main p, .profile-main li{
+    font-size: 1.5rem;
+    margin: 8px 0;
+    }
+
+.profile-info, .profile-auth, .profile-cars{
+min-width: 30rem;
+}
+@media screen and (max-width: 550px){
+.profile-info, .profile-auth, .profile-cars{
+    min-width: 1rem;
+    max-width: 90%;
+    font-size: 0.8rem;
+    }
+}
+
+.profile-info p{
+   text-align: center;
+}
+
+#edit-name-form, #email-edit-form, #new-car-field{
+margin-top: 2rem;
+}
+
+#edit-name-button, #edit-email-button, #edit-password-button, #add-new-car-button{
+    margin-top: 2rem;
+} 
+
+.profile-main li{
+display: flex;
+justify-content: space-between;
+}
+
+.profile-main input{
+padding: 0.5rem;
+font-size: 1rem;
+}
+
+.profile-info, .profile-auth, .profile-cars, #password-edit-form{
+    margin-top: 3rem;
+    }
+
+.profile-cars .profile-info, .profile-auth{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-cars{
+margin-bottom: 3rem;
+}
+
+
+.profile-cars ul{
+list-style: none;
+}
+
+#edit-name-form button, #email-edit-form button, #password-edit-form button, #new-car-field button{
+margin-left: 2rem;
+}
+
+
+
+
+.profile-main button{
+font-size: 1.2rem;
+padding: 0.5rem;
+border-radius: 8px;
+border: none;
+background-color: rgb(91, 91, 91);
+color:white;
+}
+.profile-main button:hover{
+    background-color: rgb(126, 126, 126);
+}
+
+.hidden {
+    display: none;
+    }

@@ -1,0 +1,13 @@
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\bin\Debug\Brackeys_Tutorial.exe.config
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\bin\Debug\Brackeys_Tutorial.exe
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\bin\Debug\Brackeys_Tutorial.pdb
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.csproj.AssemblyReference.cache
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.exe
+C:\Users\krist\OneDrive\Tiedostot\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.pdb
+C:\Users\krist\Documents\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\bin\Debug\Brackeys_Tutorial.exe.config
+C:\Users\krist\Documents\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\bin\Debug\Brackeys_Tutorial.exe
+C:\Users\krist\Documents\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\bin\Debug\Brackeys_Tutorial.pdb
+C:\Users\krist\Documents\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.csproj.CoreCompileInputs.cache
+C:\Users\krist\Documents\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.exe
+C:\Users\krist\Documents\GitHub\VSsiirto\Brackeys_Tutorial\Brackeys_Tutorial\obj\Debug\Brackeys_Tutorial.pdb

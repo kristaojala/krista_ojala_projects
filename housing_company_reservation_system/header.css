@@ -1,0 +1,126 @@
+body{
+     background-color: rgb(118, 161, 81); 
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem 0 1rem;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat; 
+     
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrapper img{
+    height: 5rem;
+}
+.header-wrapper button{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(225, 246, 224);
+    border-radius: 4px;
+    padding: 0.4rem;
+    margin-left: 1rem;
+}
+.header-wrapper button:hover{
+    background-color: rgb(179, 230, 176);
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: space-evenly; 
+    gap: 1rem; 
+    margin-top: 5rem; 
+}
+
+button{
+    cursor: pointer;
+}
+
+#parking-button{
+background-color: rgb(221, 198, 157);
+}
+#laundry-button{
+background-color: rgb(185, 188, 220);
+}
+#sauna-button{
+background-color: rgb(221, 157, 157);
+}
+
+.header-buttons button{
+    width: 15rem;
+    border: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 10% 10% 0 0 ;
+    margin: 0;
+
+}
+@media screen and (max-width: 900px){
+    .header-buttons button{
+        width: 9rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header-buttons button{
+        width: 6.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    /*Alle 200px wide alkaa hajota, mutta sen pitäisi olla ok, 
+    koska niin pieniä näyttöjä ei oikein ole.
+    Säädetään jos tarve */
+    /*Below 200px wide it starts to break, but it should be ok, 
+    because there aren't really such small screens.
+    Will adjust if necessary */
+    .header-buttons{
+        gap: 0.2rem;
+    }
+    .header-buttons button{
+        width: 4rem;
+        font-size: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+/* Suurille näytöille, ettei buttonit karkaa käsistä*/
+
+/* For large screens, so the buttons don't get out of hand*/
+    header {
+        max-width: 2500px; 
+        margin: 0 auto; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .header-wrapper {
+        width: 100%; 
+        justify-content: space-between; 
+    }
+
+    .header-buttons {
+        width: 100%; 
+        justify-content: space-evenly; 
+    }
+}
+

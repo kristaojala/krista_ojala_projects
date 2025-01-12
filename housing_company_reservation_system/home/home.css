@@ -1,0 +1,39 @@
+body{
+    margin:0;
+ }
+
+.home-main{
+        background: linear-gradient( rgb(185, 188, 220),rgb(236, 238, 253));
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+        margin:0;
+        }
+
+.home-main h2{
+    font-size: 2.5rem;
+}
+
+.home-main h3{
+    font-size: 2rem;
+}
+
+.home-main h4{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.home-main p{ 
+    font-size: 1.5rem;
+}
+.users-reservations{
+    min-width: 26rem;
+}
+#home-parking-reservations,  #home-sauna-reservations{
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 1rem;
+}

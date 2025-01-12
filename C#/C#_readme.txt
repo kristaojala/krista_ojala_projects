@@ -1,0 +1,1 @@
+Some C# I've done in school. Exam, rehearse exam and my try on trying to follow a tutorial that ended up becoming a small game.
