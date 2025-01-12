@@ -1,0 +1,124 @@
+html{
+    background-color: black;
+}
+body{
+    font-family: monospace;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.3029586834733894) 0%, rgba(0,0,0,0.5998774509803921) 60%, rgba(0,0,0,1) 100%),
+    url(media/casino_interior.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 65px;
+    color: #03e9f4 ;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, rgb(145, 255, 255) 0px 0px 20px, rgb(145, 255, 255) 0px 0px 30px, rgb(145, 255, 255) 0px 0px 40px, rgb(145, 255, 255) 0px 0px 50px, rgb(145, 255, 255) 0px 0px 75px;
+}
+h2, h3{
+    color: lightcyan;
+    min-height: 22px;
+}
+.blackjack{
+    background-image: url(media/poker-5735621_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-width: 60%;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rules{
+    background: saddlebrown;
+}
+.rules p{
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.rules h2{
+    color: black;
+    font-size: 22px;
+}
+
+.blackjack,  .rules{
+    border: 10px solid saddlebrown;
+    padding: 40px;
+    margin: 30px 0 30px 0 ;
+    -webkit-box-shadow: inset 0px 0px 10px 7px rgba(0,0,0,0.59);
+    -moz-box-shadow: inset 0px 0px 10px 7px rgba(0,0,0,0.59);
+    box-shadow: inset 0px 0px 10px 7px rgba(0,0,0,0.59);
+}
+
+.blackjack h1{
+    color:#eb2f1f;
+    text-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
+.hidden{
+   display: none;
+}
+
+.blackjack button{
+    width: 150px;
+    background-color:#2060d8;
+    color: lightcyan;
+    padding: 10px;
+    border-radius: 7px;
+    border:solid 2px lightcyan;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.blackjack button:hover{
+    background-color:#517ed2;
+    transform: scale(1.02);
+}
+
+
+.card-container{
+    min-height: 200px;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 150px; 
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 150px; 
+    font-size: 24px; 
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+.heart {
+    background-image: url('media/heart.png'); 
+    background-size: cover;
+}
+.diamond {
+    background-image: url('media/diamond.png'); 
+    background-size: cover;
+}
+.club {
+    background-image: url('media/club.png'); 
+    background-size: cover;
+}
+.spade {
+    background-image: url('media/spade.png'); 
+    background-size: cover;
+}

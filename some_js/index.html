@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Some JS</title>
+</head>
+<body>
+    <h1>Some JavaScript</h1>
+<div class="section">
+    <h2>Passenger Counter</h2>
+    <div class="counter-app">
+        <h3>People Entered:</h3>
+        <h3 id="count-el">0</h3>
+        <div class="buttons">
+          <button id="decrement-btn" onclick="decrement()"></button>
+          <button id="increment-btn" onclick="increment()"></button>
+        </div>
+        <button id="save" onclick="save()">SAVE</button>
+        <h4>Previous entries:</h4>
+        <h4 id="saved-counts"></h4>
+        <h4>Total passengers:</h4>
+        <h4 id="total-passengers"></h4>
+    </div>
+</div>
+
+<div class="enter-casino">
+    <h2>The Casino</h2>
+    <label for="age" id="ageLabel">Please enter your age:</label>
+    <input type="number" name="age" id="age">
+    <div id="buttonContainer">
+    </div>
+<button id="enterAgeButton" onclick="oldEnough()">Enter age</button>
+<p id="canYouEnter"></p>
+</div>
+</body>
+</html>

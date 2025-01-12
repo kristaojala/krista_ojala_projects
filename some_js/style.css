@@ -1,0 +1,215 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/* COUNTER APP */ 
+
+#increment-btn, #decrement-btn, #save {
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+#increment-btn, #decrement-btn, #save,
+#count-el, #saved-counts, #total-passengers, .counter-app h4, .counter-app h3 {
+    position: relative; 
+    z-index: 1; 
+}
+#increment-btn, #decrement-btn {
+    width: 40px;
+    font-size: 24px;
+}
+
+ #decrement-btn{
+   background-color: #ffbaba;
+}
+
+#increment-btn {
+  background-color: #bfffc8;
+}
+
+#increment-btn:before {
+    content: "+";
+}
+
+#decrement-btn:before {
+    content: "-";
+}
+#count-el{
+    font-size:xx-large;
+}
+#saved-counts{
+    padding: 10px;
+}
+
+#save{
+background-color: rgb(151, 170, 255);
+width: 80px;
+font-size: 16px;
+margin-top: 10px;
+}
+.counter-app h4 {
+    min-height: 24px; 
+}
+
+.counter-app {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 3px solid black;
+    align-items: center;
+    background-image: url('media/woman-5477042_1280.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+.counter-app::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); 
+   
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+    margin: 20px 0 20px 0;
+}
+
+.counter-app h3, .counter-app h4{
+    font-size: 20px;
+    text-shadow: 1px 0px 25px rgba(255,255,255,1);
+}
+
+/* CALCULATOR */
+
+.calculator input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.calculator-buttons{
+display: flex;
+justify-content: space-evenly;
+}
+
+.calculator button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.calculator button:hover {
+    background-color: #0056b3;
+}
+
+#answer {
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* PRE-BLACKJACK */
+
+.enter-casino{
+    font-family: monospace;
+    margin: 40px 0 40px 0;
+    width: 80%;
+    min-height: 500px ;
+    background-color: black;
+    background-image: linear-gradient(100deg, rgba(0,0,0,0.14329481792717091) 0%, rgba(0,0,0,0.6194852941176471) 24%, rgba(0,0,0,0.9164040616246498) 55%, rgba(0,0,0,1) 100%),
+    url(media/casino_exterior.jpg);
+    background-size:cover;
+    background-position:left;
+	background-repeat: no-repeat;
+    color: lightcyan;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    border: solid 4px black;
+-webkit-box-shadow: 0px 0px 5px 13px rgb(0,0,0);
+-moz-box-shadow: 0px 0px 5px 13px rgb(0,0,0);
+box-shadow: 0px 0px 5px 13px rgb(0,0,0);
+} 
+
+.enter-casino h2{
+margin-bottom: 20px;
+font-size: 30px;
+color:#03e9f4 ;
+}
+.enter-casino input{
+    margin: 10px 0 10px 0;
+}
+
+#enterAgeButton{
+    background-color: lightcyan;
+    color: #03e9f4;
+    font-weight: bold;
+    border: 1.5px solid #03e9f4;
+    border-radius: 7px;  
+    padding: 5px 10px 5px 10px;
+    margin: 20px 0 20px 0;
+}
+#enterAgeButton:hover{
+    box-shadow: 0px 0px 7px #03e9f4;
+}
+
+.enter-casino a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+  }
+  
+.styled-button {
+    font-size: 25px;
+    background-color: lightcyan;
+    color: #03e9f4;
+    border: 1.5px solid #03e9f4;
+    border-radius: 7px;  
+    transition: 0.5s ease-in-out ;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+  }
+ 
+ .styled-button:hover{
+    background-color: #03e9f4;
+    color: #050801;
+    box-shadow: 0px 0px 5px #03e9f4, 0px 0px 25px #03e9f4, 0px 0px 50px #03e9f4, 0px 0px 100px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); 
+  }
+  .hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+
