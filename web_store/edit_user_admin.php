@@ -6,10 +6,10 @@ if (!isset($_SESSION["user_id"]) || $_SESSION["user_type"] !== "Admin") {
     exit();
 }
 
-$servername = "localhost";
+$servername = "mysql_db";
 $databasename = "verkkokauppa";
 $dbusername = "root";
-$dbpassword = "";
+$dbpassword = "root";
 
 try {
     $pdo_conn = new PDO("mysql:host=$servername;dbname=$databasename", $dbusername, $dbpassword);

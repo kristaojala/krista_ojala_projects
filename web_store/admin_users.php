@@ -5,14 +5,13 @@ if (!isset($_SESSION["user_id"]) || $_SESSION["user_type"] !== "Admin") {
     header("Location: index.php");
     exit();
 }
-
-$servername = "localhost";
+$servername = "mysql_db";
 $databasename = "verkkokauppa";
-$username = "root";
-$password = "";
+$dbusername = "root";
+$dbpassword = "root";
 
 try {
-    $pdo_conn = new PDO("mysql:host=$servername;dbname=$databasename", $username, $password);
+    $pdo_conn = new PDO("mysql:host=$servername;dbname=$databasename", $dbusername, $dbpassword);
     $pdo_conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
     echo "Connection failed:" . $e->getMessage();

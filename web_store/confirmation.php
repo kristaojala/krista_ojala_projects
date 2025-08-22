@@ -18,10 +18,10 @@ unset($_SESSION['email']);
 unset($_SESSION['address']);
 unset($_SESSION['totalOrderPrice']);
 
-$servername = "localhost";
+$servername = "mysql_db";
 $databasename = "verkkokauppa";
-$username = "root";
-$password = "";
+$dbusername = "root";
+$dbpassword = "root";
 
 try {
     $pdo_conn = new PDO("mysql:host=$servername;dbname=$databasename", $username, $password);

@@ -1,12 +1,12 @@
 <?php
 session_start();
-$servername = "localhost";
+$servername = "mysql_db";
 $databasename = "verkkokauppa";
-$username = "root";
-$password = "";
+$dbusername = "root";
+$dbpassword = "root";
 
 try{
-    $DBconn = new PDO("mysql:host=$servername;dbname=$databasename", $username, $password); 
+    $DBconn = new PDO("mysql:host=$servername;dbname=$databasename", $dbusername, $dbpassword); 
     $DBconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $keyword = strtolower($_GET['q']);
