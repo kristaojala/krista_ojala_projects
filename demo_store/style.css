@@ -1,0 +1,285 @@
+/* Yleinen tyyli / General style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#top-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+/* Pääotsikot */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Tuotteiden lista / Product list */
+.product-details {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-details h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.1rem;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.product-details button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.product-details button:hover {
+    background-color: #2ecc71;
+}
+
+.product-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Taulukon otsikkorivi / Table header row */
+.product-details th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Taulukon rivit / Table rowns */
+.product-details td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Vaihtoehtoinen riviväri /Alternate row color */
+.product-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Linkit toimintapainikkeissa / Links in action buttons */
+.product-details a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.product-details a:hover {
+    text-decoration: underline;
+}
+
+/* Responsiivisuus / Responsitivity */
+@media (max-width: 600px) {
+    .product-details table, 
+    .product-details thead, 
+    .product-details tbody, 
+    .product-details th, 
+    .product-details td, 
+    .product-details tr {
+        display: block;
+    }
+
+    .product-details thead {
+        display: none;
+    }
+
+    .product-details tr {
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .product-details td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 10px;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .product-details td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #555;
+    }
+}
+
+
+.admin-form form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.admin-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.admin-form  input[type="text"],
+.admin-form  input[type="number"],
+.admin-form  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+
+.sales-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.sales-table th,
+.sales-table td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sales-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.sales-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+/* Responsiivisuus  Responsitivity  */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .product-details {
+        padding: 15px;
+    }
+
+    .product-details h2 {
+        font-size: 1.1rem;
+    }
+
+    .product-price {
+        font-size: 1rem;
+    }
+
+    .product-details button {
+        font-size: 0.9rem;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .product-details {
+        padding: 10px;
+    }
+
+    .product-details h2 {
+        font-size: 1rem;
+    }
+
+    .product-price {
+        font-size: 0.9rem;
+    }
+
+    .product-details button {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Alle 190px wide alkaa hajota, onko väliä?
+Below 190px wide it starts to break up, does it matter?  */

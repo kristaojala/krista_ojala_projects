@@ -1,0 +1,26 @@
+[
+    {
+        "ProductID": 1,
+        "ProductName": "Suklaapatukka",
+        "Description": "Herkullinen maitosuklaa.",
+        "Price": 1.5
+    },
+    {
+        "ProductID": 2,
+        "ProductName": "Kahvipaketti",
+        "Description": "Tuoretta suomalaista kahvia.",
+        "Price": "3.99"
+    },
+    {
+        "ProductID": 3,
+        "ProductName": "T-paita",
+        "Description": "Pehme\u00e4 ja mukava t-paita.",
+        "Price": "14.95"
+    },
+    {
+        "ProductID": 4,
+        "ProductName": "Hiiri",
+        "Description": "Ei tietokoneelle",
+        "Price": "10.55"
+    }
+]

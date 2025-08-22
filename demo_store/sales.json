@@ -1,0 +1,22 @@
+[
+    {
+        "ProductID": 2,
+        "ProductName": "Kahvipaketti",
+        "Timestamp": "09.04.2025 16:42:11"
+    },
+    {
+        "ProductID": 1,
+        "ProductName": "Suklaapatukka",
+        "Timestamp": "15.06.2025 18:46:09"
+    },
+    {
+        "ProductID": 1,
+        "ProductName": "Suklaapatukka",
+        "Timestamp": "15.06.2025 18:46:10"
+    },
+    {
+        "ProductID": 1,
+        "ProductName": "Suklaapatukka",
+        "Timestamp": "15.06.2025 18:46:11"
+    }
+]
